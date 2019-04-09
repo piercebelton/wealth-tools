@@ -1,7 +1,9 @@
 <template>
     <span>
         <v-toolbar app color="blue darken-4" dark>
-            <v-toolbar-title>{{appTitle}}</v-toolbar-title>
+          <router-link to="/">
+              <v-toolbar-title>{{appTitle}}</v-toolbar-title>
+            </router-link>
         </v-toolbar>
     </span>
 </template>
@@ -18,4 +20,8 @@ export default {
 </script>
 
 <style scoped>
+a {
+    color: white;
+    text-decoration: none;
+}
 </style>

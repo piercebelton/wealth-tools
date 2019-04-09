@@ -1,7 +1,6 @@
 <template>
     <span>
         <home-content></home-content>
-        <investments-and-debts></investments-and-debts>
     </span>
 </template>
 
